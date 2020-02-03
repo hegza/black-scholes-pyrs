@@ -23,6 +23,3 @@
 1. Apply `pyrs` for syntax conversion using `python pyrs/pyrs.py black-scholes-py`.
 2. Copy "black_scholes_*.rs" to `src/`. Rename `black-scholes-pyrs/__init__.rs` as `main.rs`.
 3. Project does not compile, manual edits are required.
-
-#### Started making manual edits to the project
-1. Added `mod black_scholes*`. Might be automatable by pyrs if Python syntax for locals is used.
