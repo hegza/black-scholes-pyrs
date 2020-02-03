@@ -20,3 +20,10 @@
 1. Ran `__init__.py` through `time`. Contents: run each BS-function once. Result: `0.33s user, 0.366 total`.
 
 ### Windows, Etana
+1. Apply `pyrs` for syntax conversion using `python pyrs/pyrs.py black-scholes-py`.
+2. Copy "black_scholes_*.rs" to `src/`. Rename `black-scholes-pyrs/__init__.rs` as `main.rs`.
+3. Project does not compile, manual edits are required.
+
+#### Started making manual edits to the project
+1. Removed artifact.
+    * Accidentally included "import timeit".
