@@ -1,0 +1,4 @@
+[submodule "black-scholes-py"]
+	path = black-scholes-py
+	url = https://github.com/hegza/black-scholes-py
+	branch = master
