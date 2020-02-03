@@ -25,6 +25,4 @@
 3. Project does not compile, manual edits are required.
 
 #### Started making manual edits to the project
-1. Removed artifact.
-    * Accidentally included "import timeit".
-2. Added `mod black_scholes*`. Might be automatable by pyrs if Python syntax for locals is used.
+1. Added `mod black_scholes*`. Might be automatable by pyrs if Python syntax for locals is used.

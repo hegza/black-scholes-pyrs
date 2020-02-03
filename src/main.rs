@@ -6,7 +6,6 @@ mod black_scholes_ndp;
 
 use black_scholes_dp::*;
 use black_scholes_ndp::*;
-
 fn main() {
     euro_vanilla_call(50, 100, 1, 0.05, 0.25);
     euro_vanilla_put(50, 100, 1, 0.05, 0.25);
