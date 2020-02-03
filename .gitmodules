@@ -2,3 +2,6 @@
 	path = black-scholes-py
 	url = https://github.com/hegza/black-scholes-py
 	branch = master
+[submodule "pyrs"]
+	path = pyrs
+	url = https://github.com/konchunas/pyrs
